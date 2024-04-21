@@ -1,0 +1,55 @@
+/* CONTENT */
+
+.content {
+    position: fixed;
+    /* margin-left: 250px; */
+    top: var(--header-height);
+    left: var(--sidebar-width);
+    right: 0;
+    /* background: url(background.png) no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 100vh;
+    transition: 0.5s;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+
+/* Content.css */
+/* ... other styles ... */
+
+.chat-icon-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it's above other elements */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.chat-icon-with-text {
+    background-color: #f0f0f0; /* Or any color you prefer */
+    border-radius: 20px; /* Rounded corners for the container */
+    padding: 10px; /* Padding around icon and text */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Optional: for a bit of shadow */
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center items */
+}
+
+.chat-text {
+    margin-top: 8px; /* Space between icon and text */
+    color: #333; /* Text color */
+    font-weight: bold; /* Optional: if you want bold text */
+}
+
+.chat-icon-with-text:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+}
+
